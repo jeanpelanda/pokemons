@@ -36,7 +36,7 @@ export default function App() {
               attack: data.data.stats[1].base_stat,
               defense: data.data.stats[2].base_stat,
               hp: data.data.stats[0].base_stat,
-              imageUrl: data.data.sprites.front_default,
+              imageUrl: data.data.sprites.other.dream_world.front_default,
               name: data.data.name
             }
             return pokemon
